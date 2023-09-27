@@ -1,0 +1,11 @@
+OUTPUT:
+
+You: hello
+Chatbot: Hello! How can I help you?
+You: what is your name
+Chatbot: I'm a chatbot, and you can call me DE ARMAS.
+You: can you fix me
+Chatbot: yes i can!!!!!!
+You: bye
+Chatbot: Goodbye! Have a great day!
+

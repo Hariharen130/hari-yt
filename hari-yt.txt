@@ -1,0 +1,27 @@
+
+# Define a dictionary of predefined responses
+responses = {
+    "hello": "Hello! How can I help you?",
+    "how are you": "I'm just a computer program, but I'm here to assist you.",
+    "what is your name": "I'm a chatbot, and you can call me DE ARMAS.",
+    "bye": "Goodbye! Have a great day!",
+    "can you fix me":"yes i can!!!!!!"
+}
+
+# Function to get a response from the chatbot
+def get_response(user_input):
+    user_input = user_input.lower()
+    # Check if the user input is in the responses dictionary
+    if user_input in responses:
+        return responses[user_input]
+    else:
+        return "I'm sorry, I don't understand that."
+
+# Main loop for the chatbot
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == "exit":
+        print("Chatbot: Goodbye!")
+        break
+    response = get_response(user_input)
+    print("Chatbot:", response)
